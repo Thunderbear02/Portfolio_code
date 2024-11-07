@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.hero-section {
+  color: white;
+  background: url('Assets/thorbjorn-tolborg-artstation (1).jpg') center/cover no-repeat;
+  padding: 100px; /* Adds space around the content */
+  text-align: left; /* Aligns text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+  justify-content: flex-start; /* Aligns content to the top */
+  height: 300px; /* Adjust height as needed */
+}
+
+.hero-section h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.hero-section h1 span {
+  font-weight: lighter;
+}
+
+.hero-section img {
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.hero-section h2 {
+  font-size: 1.8em;
+  font-family: Arial, sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.skills, .presentation, .education, .experience {
+  flex: 1;
+  padding: 10px;
+}
+
+.skills h3, .presentation h3, .education h3, .experience h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center; /* Centers icons */
+}
+
+.skills-icons img {
+  height: 60px;
+  border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+footer p, footer a {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.contact-picture {
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10%; /* Makes the picture circular */
+  margin-bottom: 10px; /* Space between the picture and contact info */
+}
+
+
+/* Content Navigation */
+.content-nav {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.content-nav h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-nav p {
+  font-size: 1.5em;
+  margin: 5px 0;
+}
